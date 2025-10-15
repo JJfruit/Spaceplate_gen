@@ -1,0 +1,15 @@
+# TMM Genetic Optimization - Python Dependencies
+# Transfer Matrix Method for multilayer optical structures with genetic algorithm optimization
+
+# Core scientific computing
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Genetic algorithm library
+pygad>=3.0.0
+
+# Optional but recommended for better performance
+# numba>=0.57.0  # JIT compilation for numerical code (uncomment if needed)

@@ -38,26 +38,36 @@ python lens_opt_write_angle.py
 
 ```
 tmm_genetic/
-├── tmm_core_test.py           # TMM physics engine (1008 LOC)
-├── gaussian_opt_write.py      # GA optimizer for Gaussian beams
-├── lens_opt_write_angle.py    # GA optimizer for lens systems
-├── gaussian_result_fitting.py # Analysis with Gaussian/Rayleigh fitting
-├── lens_result.py             # Lens result analysis
-├── layer.py                   # Layer structure visualization
-├── quick_batch_fitness.py     # Batch optimization runner
-├── quick_plot_generation.py   # Plotting utilities
-├── requirements.txt           # Python dependencies
-├── SETUP.md                   # Detailed setup guide
-├── CLAUDE.md                  # AI assistant context
-└── venv/                      # Virtual environment (do not commit)
+├── tmm_core_test.py                    # TMM physics engine (1008 LOC)
+├── gaussian_opt_write.py               # GA optimizer for Gaussian beams
+├── lens_opt_write_angle.py             # GA optimizer for lens systems
+├── gaussian_result_fitting.py          # Analysis with Gaussian/Rayleigh fitting
+├── lens_result.py                      # Lens result analysis
+├── layer.py                            # Layer structure visualization
+├── quick_batch_fitness.py              # Batch optimization runner
+├── quick_plot_generation.py            # Plotting utilities
+├── Inverse_Design_Spaceplate-main/     # Gradient descent optimizer (alternative)
+│   ├── gradient_descent.py             # GD optimization engine
+│   ├── TMM_subroutines.py              # TMM with numba JIT
+│   ├── spaceplate.py                   # Spaceplate functions
+│   └── README.md                       # GD documentation
+├── requirements.txt                    # Python dependencies
+├── SETUP.md                            # Detailed setup guide
+├── CLAUDE.md                           # AI assistant context
+└── venv/                               # Virtual environment (do not commit)
 ```
 
 ## Dependencies
 
+**Core (Genetic Algorithm):**
 - **NumPy 1.26.4** - Numerical computing & FFT
 - **SciPy 1.16.2** - Scientific computing & curve fitting
 - **Matplotlib 3.10.7** - Visualization
 - **PyGAD 3.5.0** - Genetic algorithm framework
+
+**Additional (Gradient Descent):**
+- **lmfit 1.3.4** - Curve fitting for phase analysis
+- **numba 0.62.1** - JIT compilation for TMM speedup
 
 ## Documentation
 

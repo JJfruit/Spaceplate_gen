@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 from scipy.fft import fft, ifft
 from tmm_core_test import coh_tmm
 import pygad
-
+#Genetic Algorithm (GA)로 다층 박막 구조를 최적화하여
+# 특정 빔 특성을 얻는 시뮬레이션 코드입니다
 # ----------------------------
 # 0) 실행 로깅/저장 유틸
 # ----------------------------

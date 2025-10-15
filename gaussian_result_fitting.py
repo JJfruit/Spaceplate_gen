@@ -4,6 +4,8 @@ from tmm_core_test import coh_tmm
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
+# Analysis with Gaussian/Rayleigh fitting
+
 # --- 굴절률 리스트 생성 함수 ---
 def alternating_n_list(N):
     n1, n2 = 3.6211 + 1.26e-7j, 1.4596 + 0.000011139j

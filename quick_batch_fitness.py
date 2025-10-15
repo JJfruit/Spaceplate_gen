@@ -3,6 +3,8 @@ import os, json, subprocess, sys, random
 from pathlib import Path
 from datetime import datetime
 
+# Batch optimization runner
+
 # === 사용자 설정 ===
 MAIN_SCRIPT    = "gaussian_opt_write.py"   # ← 당신의 메인 스크립트명으로 바꾸세요
 Z_R_TAG        = "zR_85um"                  # 로그가 쌓이는 폴더명 (예: zR_65um)

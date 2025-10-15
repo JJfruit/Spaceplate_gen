@@ -6,6 +6,8 @@ from scipy.fft import fft, ifft
 from tmm_core_test import coh_tmm
 import pygad
 
+# GA optimizer for lens systems
+
 # =========================
 # 0) 실행 로깅/저장 유틸 (NA 또는 θ 기준)
 # =========================

@@ -14,8 +14,7 @@ ROOT = Path("ga_runs")
 
 # 플롯에 포함할 run_id 목록
 RUN_IDS = [
-    "20250926-051347-b0da60","20250926-053259-7ac215",
-    "20250926-045137-05218b","20250926-054829-e48e09"
+    "20251015-120017-f5b5cf","20251015-120429-e127c3","20251015-120849-0b2cce"
 ]
 
 METRIC = "best"  # "best" | "mean" | "worst"
@@ -181,7 +180,7 @@ def main():
                             g_peak, 1.0 + PEAK_ANNOTATE_YOFFSET + extra_last, txt,
                             transform=trans, ha='center', va='bottom',
                             fontsize=12, color=color,
-                            bbox=dict(boxstyle="round,pad=0.2", fc="white", alpha=0.4, lw=0)
+                            bbox=dict(boxstyle="round",pad=0.2, fc="white", alpha=0.4, lw=0)
                         )
                     else:
                         ax.annotate(
@@ -216,3 +215,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

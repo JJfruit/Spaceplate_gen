@@ -2,6 +2,8 @@ import numpy as np
 from numpy import inf
 import matplotlib.pyplot as plt
 
+# Layer structure visualization
+
 def visualize_layered_structure(n_list, d_list):
     """
     Visualizes a layered optical structure with refractive indices and layer thicknesses.

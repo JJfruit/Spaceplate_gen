@@ -12,7 +12,7 @@ from matplotlib.transforms import blended_transform_factory as _btf  # ★ 추�
 # =========================
 ROOT = Path("ga_runs")
 RUN_IDS = [
-    "20250926-021954-23b9b3","20250926-133517-6f914f","20250928-102853-132e3e"
+    "20251015-120017-f5b5cf","20251015-120429-e127c3","20251015-120849-0b2cce"
 ]
 METRIC = "best"  # "best" | "mean" | "worst"
 TITLE  = "GA fitness per generation (Gaussian Beam)"
@@ -197,3 +197,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
